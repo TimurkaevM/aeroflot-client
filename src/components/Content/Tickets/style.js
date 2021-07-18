@@ -6,7 +6,7 @@ export const useTicketsStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     position: 'relative',
     overflow: 'auto',
-    maxHeight: 450,
+    maxHeight: 350,
     scrollbarColor: '#458245 #714826',
     scrollbarWidth: 'thin',
     '&::-webkit-scrollbar': {
