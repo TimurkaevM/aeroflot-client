@@ -1,0 +1,14 @@
+.title {
+  margin-bottom: 23px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #424242;
+}
+
+.title span {
+  color: #0870e6;
+}

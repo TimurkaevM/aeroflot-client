@@ -1,0 +1,39 @@
+.slider {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 24px 0 31px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.cards::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.cards {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.card {
+  margin-right: 12px;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card img {
+  display: block;
+  width: 164px;
+  height: 149px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}

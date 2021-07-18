@@ -1,0 +1,41 @@
+.exit {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.exit:hover .exit__text {
+  font-size: 22px;
+  transition: 0.2s;
+}
+
+.exit:hover .exit__img {
+  width: 20px;
+  height: 20px;
+  transition: 0.2s;
+}
+
+.exit__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 22px;
+  align-items: center;
+  letter-spacing: -0.408px;
+  color: #1157a7;
+  margin-right: 20px;
+}
+
+.exit__img {
+  width: 18px;
+  height: 18px;
+}
+
+.exit__img img {
+  width: 100%;
+  display: block;
+}
